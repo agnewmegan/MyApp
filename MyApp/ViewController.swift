@@ -18,8 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func ButtonTapped(_ sender: Any) {
         
-        print(Text1.text!)
-        print(Text2.text!)
+        TheLabel.text = "Answer is \(Int(Text1.text!)! + Int(Text2.text!)!)"
         
     }
     
